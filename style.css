@@ -1,0 +1,214 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  /* padding: 8px; */
+  height: 76px;
+  display: flex;
+  align-items: center;
+}
+.header h3 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.search-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#searchForm {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#searchInput {
+  width: 82.5%;
+  height: 65px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+#searchInput:focus {
+  border: 2px solid #4caf50;
+  background-color: #f2f2f2;
+}
+
+.srchbtn {
+  width: 15%;
+  height: 66px;
+  background-color: black;
+  color: white;
+  margin-left: 2%;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.srchbtn:hover {
+  border: 2px solid rgb(54, 47, 47);
+  background-color: rgb(28, 28, 28);
+}
+
+.button-section {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  width: 14%;
+  height: 65px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: rgb(43, 43, 43);
+}
+
+.table {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#mytable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#mytable th,
+#mytable td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+#mytable th:nth-child(1),
+#mytable td:nth-child(1) {
+  width: 5%;
+}
+
+#mytable th:nth-child(2),
+#mytable td:nth-child(2) {
+  width: 20%;
+}
+
+#mytable tbody {
+  font-size: 16px;
+}
+
+#mytable tbody tr {
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+#mytable tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.circle-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.circle-img img {
+  width: 100%;
+  height: auto;
+}
+
+.hidden-table {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#maleTable,
+#femaleTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#maleTable th,
+#maleTable td,
+#femaleTable th,
+#femaleTable td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+#maleTable th:nth-child(1),
+#maleTable td:nth-child(1),
+#femaleTable th:nth-child(1),
+#femaleTable td:nth-child(1) {
+  width: 5%;
+}
+
+#maleTable th:nth-child(2),
+#maleTable td:nth-child(2),
+#femaleTable th:nth-child(2),
+#femaleTable td:nth-child(2) {
+  width: 20%;
+}
+
+#maleTable tbody,
+#femaleTable tbody {
+  font-size: 16px;
+}
+
+#maleTable tbody tr,
+#femaleTable tbody tr {
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+#maleTable tbody tr:hover,
+#femaleTable tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+#reset,
+#resetBtn {
+  width: 14%;
+  height: 65px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 8px;
+}
